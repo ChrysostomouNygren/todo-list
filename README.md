@@ -1,5 +1,4 @@
-# Pastel pink todo list
-
+# [Pastel pink todo list](https://pastel-todo.netlify.app/)
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app) and made as a school project in the beginning of 2022.
 
 ## Get started:
