@@ -1,13 +1,65 @@
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  background-image: url(./components/background.jpg);
+  font-family: 'Quicksand', sans-serif;
+  font-weight: lighter;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.app {
+  text-align: center;
+}
+
+.list-area {
+  display: flex;
+  flex-direction: column-reverse;
+  max-width: 500px;
+  margin: 0 auto;
+  margin-top: 30px;
+}
+
+.task {
+display: grid;
+max-height: 55px;
+grid-template-columns: 60px 1fr 60px;
+align-items: center;
+align-content: center;
+justify-items: center;
+background-color: rgba(43, 61, 226, 0.24);
+padding-left: 3%;
+padding-right: 3%;
+border-radius: 15px;
+margin: 5px;
+}
+
+.button {
+  background-color: transparent;
+  border: 0px transparent;
+  width: 21px;
+}
+
+input[type="checkbox"] {
+  width: 1.15em;
+  height: 1.15em;
+  border: 0.15em solid currentColor;
+  border-radius: 0.15em;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+}
+
+#add {
+  background-color: transparent;
+  border: none;
+  fill: purple;
+}
+
+.checked {
+  color: rgba(0, 0, 0, 0.233);
+  text-decoration: line-through;
+}
+
+.check {
+  color: black;
+  background-color: none;
 }
