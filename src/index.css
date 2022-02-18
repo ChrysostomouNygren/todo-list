@@ -1,5 +1,6 @@
 body {
   background-image: url(./components/background.jpg);
+  background-repeat: no-repeat;
   background-size: cover;
   font-family: 'Quicksand', sans-serif;
   font-weight: lighter;
